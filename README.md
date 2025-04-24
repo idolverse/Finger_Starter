@@ -102,80 +102,99 @@
 
 你应该有类似这样的东西。它应该可以自由折叠到这个角度。
 
-
+![image](https://github.com/user-attachments/assets/04b3071e-e49e-4142-879f-ed489e5863ec)
 
 现在让我们看看伺服器。我们要在伺服器上找到一个任意零点。用手将执行器旋转到最左侧，并记录它到达的位置。向左旋转执行器，并记录它到达的位置。这两个点是伺服器的极限位置，任意零点位于这两个点的中间。如果你知道如何操作，你可以用你的Arduino开发板找到它，但目前这是一个简单的解决方案，尽管它并不精确。
 
+![image](https://github.com/user-attachments/assets/ce6085e2-a319-41c5-9b11-88b057091f23)
 
 安装，将“RobRing”拧到伺服器上，两个小孔应该位于极端点上。
 
-
+![image](https://github.com/user-attachments/assets/d2b76825-6b9c-4322-8174-7820178110ca)
 
 取一根约50厘米长的鱼竿，将其穿过一个孔。
 
+![image](https://github.com/user-attachments/assets/6db97bb7-7321-465a-b914-d12f9ca3db50)
+
 像这样，在距离鱼竿约 25 厘米处打两个结，并将它们打紧。
 
+![image](https://github.com/user-attachments/assets/2861f9ed-0c6e-4ae9-ba8f-434085f8f836)
 
 在距离第一组结约 1 厘米处添加另一组结。
 
+![image](https://github.com/user-attachments/assets/988e7233-8d2b-40d2-a45a-78faedc566ed)
+
 我的照片上只打了两个这样的结，但它们可能会穿过“RobRing”的孔，这是不应该发生的。多打几个结可以避免这种情况。
+
+![image](https://github.com/user-attachments/assets/b6e7a14c-6be6-4d60-b6d9-dc0aada2eff0)
 
 现在将杆的另一端穿过第二个孔。
 
+![image](https://github.com/user-attachments/assets/eee0bb66-b63f-4578-842f-6d023ce17cc0)
 
 你应该有类似的东西，甚至比我的结还多。
 
+![image](https://github.com/user-attachments/assets/66791b63-7c36-42c0-8207-0e7916ccafb4)
 
 是时候将伺服器固定到基座上了。
 
+![image](https://github.com/user-attachments/assets/257e63f1-891d-4054-b72d-3cd74b9303c8)
 
 将底部杆穿过如下图所示的部件。
 
-
+![image](https://github.com/user-attachments/assets/ef971dba-8d81-4774-ac7e-364e0be2e5e5)
 
 只要确保不要倒置你的钓竿，它应该始终位于手指背面。
 
-
+![image](https://github.com/user-attachments/assets/db2c6364-8cc7-403e-9530-a5db94f59ea9)
 
 现在将第二根杆放在手指内侧。
 
-
-
-
+![image](https://github.com/user-attachments/assets/6bb50cf1-91c6-4e3f-92a1-cc51db8003f6)
 
 你应该以这样的结局结束。
 
+![image](https://github.com/user-attachments/assets/954cb038-7bf2-4f58-b6ae-57fc14a4bbdc)
 
 检查你的伺服器是否处于其零任意点。
 
+![image](https://github.com/user-attachments/assets/87e97852-9f77-480e-9166-1aaf1b39dd4c)
 
 将手指稍微卷曲，并在两根电线之间打几个结。
 
-
+![image](https://github.com/user-attachments/assets/35a73937-c059-4cce-9b45-20843539d8f9)
 
 用手转动“RobRing”时，手指应该能够处于这个位置。手指完全伸展。
 
+![image](https://github.com/user-attachments/assets/c4d9424a-3d62-4d6f-8d53-3ab8944dd3cf)
 
 现在切割杆。
 
+![image](https://github.com/user-attachments/assets/791a5184-ca95-4d2e-8825-d4a6d2dfb3ad)
 
 将第 6 部分粘到第 5 部分。如果仔细观察第 6 部分，就会发现它有一个钉子侧面，出于美观原因，我没有在钉子上写上数字。
 
-
+![image](https://github.com/user-attachments/assets/ea43e3b5-29be-46d3-a7a2-7413c69c002c)
 
 尝试通过旋转“RobRing”来移动手指，它应该可以自由移动而不会锁定。
 
+![image](https://github.com/user-attachments/assets/de05c94b-7ebd-4da9-994d-49ec9d336eda)
 
 插入 Arduino 开发板并进行如下接线。橙色或黄色线连接 PWM 的 3 号引脚。红色线连接 +5V。黑色或棕色线连接 Gnd（地线）。
 
 请记住：此连接设置只能为单个低安培的舵机供电。如果您的开发板自动复位，或者舵机抖动，则意味着舵机的功耗对于电源引脚来说过高。您需要外部电源。（请参阅本教程开头）
 
-现在，您可以将FingerStarter 代码上传到您的 Arduino 来查看它的运行情况。如果您以前从未使用过 Arduino，请点击此链接或使用 Arduino简介 PDF 文件。
+现在，您可以将FingerStarter 代码（已保存至FingerStarter 代码.txt）上传到您的 Arduino 来查看它的运行情况。如果您以前从未使用过 Arduino，请点击此链接：https://www.arduino.cc/en/Guide/。或使用 Arduino简介 PDF 文件。
 
-您还可以访问 MyRobotLab，学习如何使用滑块驱动手指。按照本教程开始使用 Myrobotlab。自从我撰写本文以来，情况发生了一些变化，但它有助于理解基础知识。
+您还可以访问 MyRobotLab，学习如何使用滑块驱动手指。按照教程（如何启动 MyRobotLab）开始使用 Myrobotlab。自从我撰写本文以来，情况发生了一些变化，但它有助于理解基础知识。
+
 以下是使用 MyRobotLab 对 FingerStarter 进行语音控制的脚本：
-对于 Manticore–>带语音控制的 InMoovFingerStarter
-对于 Nixie–>带语音控制的 InMoovFingerStarter
+
+对于 Manticore–>带语音控制的 InMoovFingerStarter：https://github.com/MyRobotLab/myrobotlab/blob/master/src/resource/InMoov/InMoov.minimalFingerStarter.py
+
+对于 Nixie–>带语音控制的 InMoovFingerStarter（已保存至InMoov.minimalFingerStarter.py）：https://inmoov.fr/fingerstarter-with-voice-control/
+
 如果您有一些肌肉传感器或超声波传感器，您可以尝试用它们控制手指启动器。
+
 – inmoov_fingerstarter_muscle_sensor
 – inmoov_fingerstarter_ultrasound
