@@ -11,8 +11,11 @@
 以下是 1 个 Finger Starter 所需的部件列表和打印件数量：
 
 1x FingerIndex
+
 1x FingerTester
+
 1x RobRing
+
 1x Servo-Pulley
 
 这将会很有趣！！
